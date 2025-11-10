@@ -1,0 +1,73 @@
+<?php
+
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>all dashboard</title>
+    <link href="../assets/cs/bootstrap.css" rel="stylesheet" />
+    <link href="../assets/cs/style.css" rel="stylesheet" type="text/css" />
+    <script src="../assets/js/bootstrap.bundle.js" rel="stylesheet"></script>
+    <!-- font-icon & font-awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+
+            background-color: #BBF9FC;
+        }
+    </style>
+</head>
+
+<body>
+     <div class="container-fluid"> 
+        <!-- end navbar -->
+
+        <div class="row">
+            <div class="col-sm-3 ">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <span><img src="../assets/images/img11.jpg" style="width:40%;height:100%; border-radius:100%;" /></span>
+                    </div>
+                </div>
+                <div class="list-group text-center my-2">
+                    <a href="dashboard.php" class="list-group-item list-group-item-action my-2">DASHBOARD</a>
+                    <a href="category.php" class="list-group-item list-group-item-action list-group-item-danger my-2">ADD CATEGORY</a>
+                    <a href="product.php" class="list-group-item list-group-item-action list-group-item-primary y-2">ADD PRODUCT</a>
+                    <a href="view_product.php" class="list-group-item list-group-item-action list-group-item-secondary my-2"> VIEW PRODUCT</a>
+                    <a href="view_user.php" class="list-group-item list-group-item-action list-group-item-success my-2">VIEW USERS</a>
+                    <a href="notification.php" class="list-group-item list-group-item-action list-group-item-danger my-2">ADD NOTIFICATION</a>
+                    <a href="ad_view_cart.php" class="list-group-item list-group-item-action list-group-item-warning my-2">VIEW CART</a>
+                    <a href="ad_contact.php" class="list-group-item list-group-item-action list-group-item-info my-2">VIEW CONTUCT US</a>
+                    <a href="sold_item.php" class="list-group-item list-group-item-action list-group-item-light my-2">VIEW SOLID ITEMS</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-dark my-2">GENERATE REPORT</a>
+                </div>
+            </div>
+
+            <div class="col-sm-9 ">
+
+                <div class="row bg-dark text-light">
+                    <div class="col-sm-10">
+                        <h3 class="my-2">Welcome to dasboard</h3>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <div class="dropdown my-2">
+                            <a class="btn btn-dark dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person"></i> Admin
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Admin Profile</a></li>
+                                <li><a class="dropdown-item" href="ad_longout.php">Longout</a></li>
+                                <li><a class="dropdown-item" href="cat_longout.php">Change Profile</a></li>
+                                <li><a class="dropdown-item" href="change_password.php"> Change Password</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>

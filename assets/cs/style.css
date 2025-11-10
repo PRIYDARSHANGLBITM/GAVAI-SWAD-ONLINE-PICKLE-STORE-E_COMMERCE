@@ -1,0 +1,161 @@
+
+ body
+{
+   background:rgba(0,0,0,.5);
+ /* overflow-x: hidden;   */
+ font-family:Josefin Sans;
+} 
+
+#fafa{
+    font-size:30px;
+  
+} 
+.abc{
+    text-decoration: none;
+    color:#ffde59;
+    opacity: 90%;
+   
+}
+
+ .footer
+ {
+    text-decoration: none;
+    color:#ffffff;
+ }
+ .ravi{
+    /* background-image:linear-gradient(yellow,lightyellow ,yellow); */
+    background-color: #ffde59;
+    opacity: 90%;
+ }
+
+ .product{
+    height:15rem;
+ }
+
+ .admin{
+   /* border:none; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red;
+  
+ }
+
+ .dash{
+ 
+   border:1px solid black;
+   /* border-radius: 50%; */
+ }
+ .cat_nav{
+  text-decoration: none;
+  text-align: center;
+ }
+ .best img
+ {
+   /* transition-delay:1s; */
+   transition-duration: 1s;
+ }
+ .best img:hover
+ {
+   transform: scale(1.1);
+ }
+ /* .card
+ {
+   /* transition-delay:1s; 
+   transition-duration: 1s;
+ }
+ .card:hover
+ {
+   transform: scale(1.03);
+ } */
+
+ /* ================login============= */
+ 
+
+.container1{
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  /* margin-left:30px; */
+  border:1px solid;
+}
+.container1 .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.container1 .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 30px;
+  background: blue;
+}
+.container1 form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin: 20px 0 12px 0;
+  width: calc(100% / 2 - 20px);
+}
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input,
+.user-details .input-box textarea,
+.user-details .input-box select{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.5s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid{
+  border-color: green;
+}
+.user-details .input-box textarea:focus,
+.user-details .input-box textarea:valid{
+  border-color: green;
+}
+.user-details .input-box select:focus,
+.user-details .input-box select:valid{
+  border-color: green;
+}
+form .button{
+  height: 45px;
+  width: 45px 0;
+}
+form .button input,
+form .button textarea{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background:blue;
+
+}
+form .button input:hover{
+  background: blue;
+}
+/* Registration User Page css end */
+ 
